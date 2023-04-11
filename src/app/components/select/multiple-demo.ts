@@ -113,7 +113,7 @@ export class MultipleDemoComponent implements OnInit {
 
   ngOnInit() {
     this.cities = [
-      { item_id: 1, item_text: 'New Delhi', item_tooltip: 'The capital of India!' },
+      { item_id: 1, item_text: "New Delhi <span class='custom-css'> (In Use) </span>" , item_tooltip: 'The capital of India!' },
       { item_id: 2, item_text: 'Mumbai' },
       { item_id: 3, item_text: 'Bangalore', isDisabled: this.disableBangalore },
       { item_id: 4, item_text: 'Pune' },
@@ -134,7 +134,9 @@ export class MultipleDemoComponent implements OnInit {
       unSelectAllText: 'UnSelect All',
       enableCheckAll: this.showAll,
       itemsShowLimit: 999999,
-      allowSearchFilter: this.ShowFilter
+      allowSearchFilter: this.ShowFilter,
+      useHTML:true
+
     };
     this.myForm = this.fb.group({
       city: [this.selectedItems]
