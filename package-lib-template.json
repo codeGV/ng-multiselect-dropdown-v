@@ -1,5 +1,5 @@
 {
-  "name": "ng-multiselect-dropdown",
+  "name": "ng-multiselect-dropdown-v",
   "version": "0.1.0",
   "description": "Angular Multi-Select Dropdown",
   "keywords": [
@@ -11,7 +11,7 @@
     "ng2 multiselect dropdown",
     "ng4 multiselect dropdown"
   ],
-  "author": "Nilesh Patel",
+  "author": "codeGv",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/codeGV/ng-multiselect-dropdown-v/issues"
   },
-  "homepage": "codeGV/ng-multiselect-dropdown#readme",
+  "homepage": "codeGV/ng-multiselect-dropdown-v#readme",
   "peerDependencies": {
     "@angular/common": "^2.3.1 || >=4.0.0",
     "@angular/core": "^2.3.1 || >=4.0.0",

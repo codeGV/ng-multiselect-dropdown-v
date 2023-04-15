@@ -3,9 +3,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![npm version](https://img.shields.io/npm/v/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown)
-[![downloads](https://img.shields.io/npm/dt/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown)
-[![downloads](https://img.shields.io/npm/dm/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown)
+[![npm version](https://img.shields.io/npm/v/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown-v)
+[![downloads](https://img.shields.io/npm/dt/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown-v)
+[![downloads](https://img.shields.io/npm/dm/ng-multiselect-dropdown.svg)](https://www.npmjs.com/package/ng-multiselect-dropdown-v)
 
 Angular multiselect dropdown component for web applications. Easy to integrate and use. It can be bind to any custom data source.
 
@@ -27,13 +27,13 @@ Angular multiselect dropdown component for web applications. Easy to integrate a
 ### Installation
 
 ```
-npm install ng-multiselect-dropdown
+npm install ng-multiselect-dropdown-v
 ```
 
 <!-- And then include it in your module (see [app.module.ts](https://github.com/codeGV/ng-multiselect-dropdown-v/blob/master/src/app/app.module.ts)): -->
 
 ```ts
-import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
+import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown-v';
 // ...
 
 @NgModule({
@@ -50,7 +50,7 @@ export class AppModule {}
 
 ```ts
 import { Component, OnInit } from '@angular/core';
-import { IDropdownSettings } from 'ng-multiselect-dropdown';
+import { IDropdownSettings } from 'ng-multiselect-dropdown-v';
 
 export class AppComponent implements OnInit {
   dropdownList = [];
@@ -200,27 +200,3 @@ Please share sample code using codesandbox.com or stackblitz.com to help me re-p
 ## License
 
 MIT License.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://blog.techotom.com"><img src="https://avatars0.githubusercontent.com/u/1773838?v=4" width="100px;" alt=""/><br /><sub><b>Tom Saleeba</b></sub></a><br /><a href="https://github.com/Nilesh Patel/ng-multiselect-dropdown/commits?author=tomsaleeba" title="Code">💻</a></td>
-    <td align="center"><a href="https://overtrack.gg"><img src="https://avatars0.githubusercontent.com/u/2515062?v=4" width="100px;" alt=""/><br /><sub><b>Simon Pinfold</b></sub></a><br /><a href="https://github.com/Nilesh Patel/ng-multiselect-dropdown/commits?author=synap5e" title="Code">💻</a></td>
-    <td align="center"><a href="http://helpfordeveloper.blogspot.in"><img src="https://avatars0.githubusercontent.com/u/32981723?v=4" width="100px;" alt=""/><br /><sub><b>Sushil Suthar</b></sub></a><br /><a href="https://github.com/Nilesh Patel/ng-multiselect-dropdown/commits?author=sushil-suthar" title="Code">💻</a></td>
-    <td align="center"><a href="http://sacgro.com"><img src="https://avatars1.githubusercontent.com/u/1292182?v=4" width="100px;" alt=""/><br /><sub><b>Sachin Grover</b></sub></a><br /><a href="https://github.com/Nilesh Patel/ng-multiselect-dropdown/commits?author=sacgrover" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/WWL-MikeRoberts"><img src="https://avatars3.githubusercontent.com/u/9750056?v=4" width="100px;" alt=""/><br /><sub><b>Mike Roberts</b></sub></a><br /><a href="https://github.com/Nilesh Patel/ng-multiselect-dropdown/commits?author=WWL-MikeRoberts" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/DsosaV"><img src="https://avatars2.githubusercontent.com/u/3926475?v=4" width="100px;" alt=""/><br /><sub><b>David Sosa</b></sub></a><br /><a href="https://github.com/Nilesh Patel/ng-multiselect-dropdown/commits?author=DsosaV" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

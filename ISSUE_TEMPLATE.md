@@ -1,7 +1,7 @@
 
 **Angular version**:
 
-**ng-multiselect-dropdown version**:
+**ng-multiselect-dropdown-v version**:
 
 **Description of issue**:
 
