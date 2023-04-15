@@ -22,6 +22,7 @@
     "postbuild:lib": "npm run copyfiles",
     "prepublish": "npm run build:prod",
     "publish": "ngh --no-silent false --name=\"codeGV\" --email=\"gvkundalwal123@gmail.com\"",
+    "publish:lib": "cd ./dist-lib && npm publish",
     "deploy": "ng build --prod --base-href /ng-multiselect-dropdown-v/ && npm run deployOnly",
     "deployOnly": "angular-cli-ghpages --no-silent --repo=https://github.com/codeGV/ng-multiselect-dropdown-v.git --name=\"codeGV\" --email=gvkundalwal123@gmail.com",
     "contributors:add": "all-contributors add",
